@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            text-align: center;
+        }
+        body {
+            padding: 20px;
+        }
+        .container{
+            flex-direction: column;
+            display: flex;
+        }
+        .header{
+            display: flex;
+            height: 100px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        .nav{
+            display: flex;
+            height: 100px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        .middle{
+            display: flex;
+        }
+        .left{
+            display: flex;
+            width: 30%;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            height: 300px;
+        }
+        .right{
+            width: 30%;
+            height: 300px;
+            margin: 5px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center{
+            display: flex;
+            width: 40%;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            height: 300px;
+        }
+        .footer{
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            height: 100px;
+        }
+        h1{
+            color: rgb(59, 201, 59);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="header">
+         <h1>Header</h1>
+     </div>
+     <div class="nav">
+         <h1>Navigation Menu</h1>
+     </div>
+     <div class="middle">
+         <div class="left">
+             <h1>Content</h1>
+         </div>
+         <div class="center">
+             <h1>Main Content</h1>
+         </div>
+         <div class="right">
+             <h1>Content</h1>
+         </div>
+      </div>
+      <div class="footer">
+          <h1>Footer</h1>
+      </div>
+    </div>
+</body>
+</html>

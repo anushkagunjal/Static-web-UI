@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            text-align: center;
+            padding: 0%;
+        }
+        body {
+            padding: 20px;
+        }
+        .container{
+            flex-direction: column;
+            display: flex;
+        }
+        .header{
+            display: flex;
+            height: 100px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        .nav{
+            display: flex;
+            height: 100px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        .middle{
+            display: flex;
+            margin: 5px;
+        }
+        .left{
+            display: flex;
+            margin-right: 10px;
+            width: 70%;
+            flex-direction: column;
+        }
+        .section{
+            border: 1px solid black;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .article{
+            border: 1px solid black;
+            height: 300px;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            
+        }
+        .aside{
+            border: 1px solid black;
+            width: 30%;
+            height: 610px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        .footer{
+            margin-top: 20px;
+            border: 1px solid black;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="header">
+           <h1>Header</h1>
+       </div>
+       <div class="nav">
+           <h1>Nav</h1>
+       </div>
+       <div class="middle">
+           <div class="left">
+               <div class="section">
+                   <h1>Section</h1>
+               </div>
+               <div class="article">
+                   <h1>Article</h1>
+               </div>
+           </div>
+           <div class="aside">
+             <h1>Aside</h1>
+          </div>  
+      </div>
+      <div class="footer"> 
+          <h1>Footer</h1>
+      </div>
+    </div>
+    
+</body>
+</html>
